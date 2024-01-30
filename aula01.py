@@ -1,4 +1,7 @@
-#Conte até 100
+#Conte até 100 carneirinhos
 
 for i in range(1,101):
-    print(i)
+    if i == 1:
+        print(i,'carneirinho')
+    else:
+        print(i,'carneirinhos')
